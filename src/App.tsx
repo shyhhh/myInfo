@@ -5,10 +5,8 @@ import './app.scss'
 
 export const App: React.FC = () => {
   return (
-    <>
-      <Suspense fallback=''>
-        <div>{useRoutes(routes)}</div>
-      </Suspense>
-    </>
+    <Suspense fallback=''>
+      <div>{useRoutes(routes)}</div>
+    </Suspense>
   )
 }

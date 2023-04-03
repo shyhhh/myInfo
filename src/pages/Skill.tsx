@@ -7,6 +7,7 @@ export const Skill: React.FC = () => {
   return (
     <div className={lis.unordered}>
       <h1>技能</h1>
+      <hr/>
       <ul>
         <li>熟悉页面制作技巧，能将设计稿<span text-orange-600>完美还原</span></li>
         <li>熟练掌握 CSS3 ，关注<span text-orange-600>页面可拓展性</span> ，熟练 <HighlightedText textArray={HightColorFont2} separator='、'/> </li>

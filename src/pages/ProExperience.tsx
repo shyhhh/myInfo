@@ -1,5 +1,6 @@
 import { Suspense } from 'react'
 import { NavLink, Outlet } from 'react-router-dom'
+import { Loading } from '../components/Loading'
 
 export const ProExperience: React.FC = () => {
   const navLinks = [
@@ -22,7 +23,7 @@ export const ProExperience: React.FC = () => {
           </NavLink>
         ))}
       </nav>
-      <Suspense fallback=''>
+      <Suspense fallback={<Loading />}>
         <Outlet />
       </Suspense>
     </div>

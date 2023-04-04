@@ -19,11 +19,15 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "0.38.2",
+    "@types/node": "18.15.11",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.1.0",
+    "classnames": "2.3.2",
     "eslint": "8.37.0",
     "sass": "1.60.0",
+    "svgo": "3.0.1",
+    "svgstore": "3.0.1",
     "typescript": "^4.6.4",
     "unocss": "0.45.30",
     "vite": "^3.1.0"

@@ -6,13 +6,15 @@ import { Recommend } from './Recommend'
 
 const Home: React.FC = () => {
   return (
-    <>
-      <MyInfo />
-      <EdExperience />
-      <ProExperience />
-      <Skill />
-      <Recommend />
-    </>
+    <div flex justify-center h='100vh' p-y-20px>
+      <section p-40px bg='#f6f6f6' shadow-xl rounded-sm>
+        <MyInfo />
+        <EdExperience />
+        <ProExperience />
+        <Skill />
+        <Recommend />
+      </section>
+    </div>
   )
 }
 

@@ -5,7 +5,7 @@ import { Loading } from './components/Loading'
 
 export const App: React.FC = () => {
   return (
-    <Suspense fallback={<Loading />}>
+    <Suspense fallback={<Loading className='m-t-20vh'/>}>
       <div>{useRoutes(routes)}</div>
     </Suspense>
   )

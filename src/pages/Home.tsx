@@ -1,7 +1,7 @@
 import { MyInfo } from './MyInfo'
 import { ProExperience } from './ProExperience'
 import { Skill } from './Skill'
-import { Recommend } from './Recommend'
+import { Other } from './Other'
 
 const Home: React.FC = () => {
   return (
@@ -10,7 +10,7 @@ const Home: React.FC = () => {
         <MyInfo />
         <ProExperience />
         <Skill />
-        <Recommend />
+        <Other />
       </section>
     </div>
   )

@@ -11,8 +11,8 @@ export const MyInfo: React.FC = () => {
         <li>TEL: MTc2ODEyNjE2MDI=</li>
         <li>微信: SEhIbG92ZWx5Xw==</li>
         <li>邮箱: <ButtonMailto label="hhhtheshy@gmail.com" mailto="mailto:hhhtheshy@gmail.com" /></li>
-        <li>学历: 四川传媒学院|网络与新媒体传播|本科|毕业时间2022</li>
-        <li>态度：学习是一个积累的过程，需持之予以恒</li>
+        <li>学历: 四川传媒学院 | 网络与新媒体传播 | 本科 | 毕业时间2022</li>
+        <li>态度: 学习是一个积累的过程，需持之以恒</li>
       </ul>
     </>
   )

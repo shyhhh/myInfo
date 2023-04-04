@@ -23,7 +23,7 @@ export const ProExperience: React.FC = () => {
           </NavLink>
         ))}
       </nav>
-      <Suspense fallback={<Loading />}>
+    <Suspense fallback={<Loading />}>
         <Outlet />
       </Suspense>
     </div>

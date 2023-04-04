@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export const Recommend: React.FC = () => {
   return (
     <>
-      <h1>介绍</h1>
+      <h1>其他</h1>
       <hr />
       <ul>
         <li>我的 <Link to='https://github.com/shyhhh' text-orange-600>Github</Link>，</li>
